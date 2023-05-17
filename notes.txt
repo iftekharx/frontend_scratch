@@ -1,0 +1,8 @@
+align-content - vertical
+justify-content - horizontal
+order for changing position of flexbox items
+flexbasis is for spacing and can be grown
+
+align-content determines the spacing between lines
+
+align-items determines how the items as a whole are aligned within the container.
