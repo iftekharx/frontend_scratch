@@ -2,6 +2,17 @@ body {
   background-color: #1e1e1e;
 }
 
+body:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url('../images/fb_norm.png') url('../images/fb_dark.png')
+    url('../images/insta_dark.png') url('../images/insta_norm.png')
+    url('../images/discord.png');
+}
+
 a {
   cursor: pointer;
 }
@@ -39,6 +50,8 @@ a {
   text-decoration: none;
   line-height: 60px;
   color: #000;
+  display: block;
+  height: 100%;
 }
 
 .header-main-nav li a:hover {
@@ -62,10 +75,18 @@ a {
   background-size: cover;
 }
 
+.header-main-sm-fb:hover {
+  background-image: url('../images/fb_norm.png');
+}
+
 .header-main-sm-in {
   width: 20px;
   height: 20px;
   background-image: url('../images/insta_dark.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header-main-sm-in:hover {
+  background-image: url('../images/insta_norm.png');
 }
