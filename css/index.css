@@ -55,3 +55,52 @@ main .main-quotes {
   left: 4vh;
   padding-bottom: 8vh;
 }
+
+/* Category section */
+
+.index-category {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap; /* used when flexbasis used*/
+}
+
+.index-category p {
+  color: #111;
+  text-align: center;
+  padding-bottom: 40px;
+  flex-basis: 100%;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.index-category-box {
+  width: 200px;
+  height: 200px;
+  background-color: #111;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-category-box:nth-child(2) {
+  background-image: url('../images/programming.jpg');
+}
+.index-category-box:nth-child(3) {
+  background-image: url('../images/movie.jpg');
+}
+.index-category-box:nth-child(4) {
+  background-image: url('../images/film.jpg');
+}
+.index-category-box:nth-child(5) {
+  background-image: url('../images/base.jpg');
+}
+.index-category-box h3 {
+  font-size: 22px;
+  line-height: 28px;
+  text-shadow: 3px 4px 2px #000; /* x y blur */
+}
