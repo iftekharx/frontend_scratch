@@ -3,7 +3,7 @@ main {
   height: calc(100vh - 60px);
   background-color: #1a253a;
   margin-top: 60px;
-  background-image: url('../images/potrait.png'), url('../images/BG.jpg');
+  background-image: url('../images/monkey.png'), url('../images/BG.jpg');
   background-size: 70vh, cover;
   background-repeat: no-repeat;
   background-position: bottom, center;
@@ -13,4 +13,26 @@ main {
 }
 
 main .main-intro h1 {
+  font-size: 96px;
+  line-height: 106px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+main a {
+  margin-top: 30px;
+  font-size: 18px;
+  display: block;
+  background-color: var(--site-color-01);
+  padding: 10px 20px; /* top and bot and left and right */
+  width: fit-content;
+}
+
+main .main-quotes {
+  border-left: 4px solid var(--site-color-01);
+  padding-left: 20px;
+  margin: 4px 0;
 }
