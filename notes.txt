@@ -10,3 +10,7 @@ align-items determines how the items as a whole are aligned within the container
 block means like a rectangle which can be invisible and
 
 body:after is used for loading images content to reduce image flickers.
+
+always put fonts link before the css links
+fixed means object stay in pos when scrolling
+abs inside relative will move inside container.
