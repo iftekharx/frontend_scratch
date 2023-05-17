@@ -1,0 +1,16 @@
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: #1a253a;
+  margin-top: 60px;
+  background-image: url('../images/potrait.png'), url('../images/BG.jpg');
+  background-size: 70vh, cover;
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-intro h1 {
+}

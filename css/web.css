@@ -1,5 +1,7 @@
 :root {
   --white-background: #fff;
+  --site-color-01: #c13584;
+  --site-color-01-hover: #ea71b5;
 }
 @font-face {
   font-family: Bubble;
@@ -22,11 +24,32 @@ body:after {
 
 a {
   cursor: pointer;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 32px;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  font-family: Roboto;
 }
 .header-main {
   position: fixed;
   top: 0;
-  width: calc(100vw - 500px);
+  /* width: calc(100vw - 500px); */
+  width: 100vw;
   height: 60px;
   background-color: var(--white-background);
   display: flex;
@@ -56,7 +79,7 @@ a {
 }
 .header-main-nav li a {
   padding: 0 10px;
-  font-family: Bubble, cursive;
+  font-family: Roboto;
   text-decoration: none;
   line-height: 60px;
   color: #000;
