@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.wrapper-main {
+  width: 1000px;
+  padding: 100px 0;
+  margin: 0 auto;
+  border: 4px solid blue;
+}
+
+h1 {
+  font-size: 9.2rem;
+}
+
+p {
+  font-size: 2.6rem;
+}
+a {
+  display: block;
+}
+
+@media (max-width: 600px) and (orientation: landscape) {
+  /* max width means when it hits 600px it will apply that css*/
+  .wrapper-main {
+    width: 100%;
+    background-color: red;
+  }
+}
+@media (max-width: 600px) and (orientation: portrait) {
+  /* max width means when it hits 600px it will apply that css*/
+  .wrapper-main {
+    width: 100%;
+    background-color: orange;
+  }
+}
+@media (min-width: 601px) {
+  /* max width means when it hits 600px it will apply that css*/
+  .wrapper-main {
+    width: 100%;
+    background-color: green;
+  }
+}
+/* breakpoints: 601, 768, 992, 1200 px*/
+@media (min-width: 768px) {
+  /* max width means when it hits 600px it will apply that css*/
+  .wrapper-main {
+    width: 100%;
+    background-color: blue;
+  }
+}
+@media (min-width: 992px) {
+  /* max width means when it hits 600px it will apply that css*/
+  .wrapper-main {
+    width: 100%;
+    background-color: purple;
+  }
+}
