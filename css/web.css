@@ -28,6 +28,8 @@ a {
   line-height: 18px;
   color: #fff;
   font-family: Roboto;
+  text-decoration: none;
+  text-align: center;
 }
 
 h1 {
