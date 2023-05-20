@@ -126,6 +126,8 @@ main .main-quotes {
   width: 100%;
   padding: 60px 0;
   background-color: #1a253a;
+}
+.index-about-flex {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,4 +180,35 @@ main .main-quotes {
 }
 .blender {
   width: 78%;
+}
+
+/* MOBILE VERSION*/
+@media only screen and (max-width: 600px) {
+  main .main-quotes {
+    display: none;
+  }
+
+  main {
+    align-items: flex-end;
+  }
+  main .main-intro {
+    padding-bottom: 8vh;
+  }
+
+  main .main-intro h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  main p {
+    text-align: center;
+    padding: 0 10px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+  }
+
+  main a {
+    margin: 30px auto;
+  }
 }

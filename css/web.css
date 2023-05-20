@@ -3,6 +3,7 @@
   --site-color-01: #c13584;
   --site-color-01-hover: #ea71b5;
 }
+
 @font-face {
   font-family: Bubble;
   src: url('../fonts/RubikBubbles-Regular.ttf');
@@ -140,4 +141,23 @@ p {
 
 .header-main-sm-in:hover {
   background-image: url('../images/insta_norm.png');
+}
+
+/* MOBILE VERSION*/
+@media only screen and (max-width: 600px) {
+  .wrapper-main {
+    width: calc(100% - 20px);
+  }
+
+  .header-main-logo {
+    padding-left: 20px;
+  }
+
+  .header-main-nav {
+    display: none;
+  }
+
+  .header-main-sm {
+    padding-right: 20px;
+  }
 }
