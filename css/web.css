@@ -41,7 +41,7 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
-  font-size: 26px;
+  font-size: 28px;
   line-height: 32px;
   color: #fff;
   font-family: Roboto;
@@ -59,7 +59,7 @@ h3 {
 
 p {
   font-size: 14px;
-  line-height: 18px;
+  line-height: 30px;
   color: #fff;
   font-family: Roboto;
 }

@@ -6,11 +6,11 @@ main {
   background-image: url('../images/monkey.png'), url('../images/BG.jpg');
   background-size: 70vh, cover;
   background-repeat: no-repeat;
-  background-position: bottom, center;
+  background-position: bottom left calc(50% + 80px), center;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 20vh;
+  column-gap: 220px;
   z-index: 100;
 }
 
@@ -51,8 +51,6 @@ main .main-intro {
 }
 
 main .main-quotes {
-  position: relative;
-  left: 4vh;
   padding-bottom: 8vh;
 }
 
@@ -113,11 +111,71 @@ main .main-quotes {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #1a253a;
   opacity: 0.5;
   transition: all ease-in-out 200ms;
 }
 
 .index-category-box:hover .dark-overlay {
   opacity: 0;
+}
+
+/* ABOUT SECTION */
+
+.index-about {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #1a253a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 60px;
+}
+.index-about-img img {
+  width: 300px;
+  border-radius: 300px;
+}
+.index-about-text h2 {
+  flex-basis: 455px;
+}
+
+.index-about-text p {
+  padding: 20px 0;
+}
+
+.index-about-text a {
+  font-size: 18px;
+  display: block;
+  background-color: var(--site-color-01);
+  padding: 10px 20px; /* top and bot and left and right */
+  width: fit-content;
+}
+
+.index-about-text a:hover {
+  background-color: var(--site-color-01-hover);
+}
+.index-about-skill {
+  flex-basis: 350px;
+}
+.index-about-skill-bar {
+  width: calc(100% - 8px);
+  height: 20px;
+  border: 4px solid #0b0f16;
+}
+.index-about-skill-bar-fill {
+  height: 100%;
+  background-color: var(--site-color-01);
+}
+
+.htmlcss {
+  width: 95%;
+}
+.javascript {
+  width: 70%;
+}
+.photoshop {
+  width: 50%;
+}
+.blender {
+  width: 78%;
 }
